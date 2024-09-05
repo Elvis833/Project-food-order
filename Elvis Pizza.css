@@ -1,0 +1,92 @@
+body {
+    background-color: antiquewhite;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(7, 49, 234, 0.543);
+    text-shadow: 2px 2px 5px red
+
+
+}
+
+.toplogo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+   
+
+}
+
+.established {
+    text-align: center;
+    font-style: italic;
+    color: rgba(192, 110, 3, 0.634);
+    text-decoration: underline;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px yellow
+
+}
+
+.menu-image {
+    max-width: 300px;
+
+
+}
+
+hr {
+    height: 2px;
+    background-color: yellow;
+    border-color: brown;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(7, 49, 234, 0.543);
+    text-shadow: 2px 2px 5px red
+}
+
+label {
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 2px 2px 5px blue
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line1 {float: right;
+    
+    font-style: italic;
+    color: rgb(163, 118, 20);
+    text-shadow: 2px 2px 5px yellow;
+    font-size: 20px;
+
+}
+button{
+    color: blue;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: yellow;
+    color: red;
+    
+}
+
+select{ padding: 5px;
+    border-radius: 10px;
+}  
+select:hover{ background-color: aqua;
+color: green;}
