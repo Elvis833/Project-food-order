@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis Pizza</title>
+    <link href="Elvis-Pizza.css" rel="stylesheet" />
+    <script src="Elvis-pizza.js"></script>
+</head>
+<body>
+    <h1>Elvis pizza</h1>
+    <p class="established"> The Delicious <b>Famous</b> Pizza Since. 2024</p>
+    <div class="toplogo">
+        <div>
+            <img src="pizza logo.png"  alt="Pizza Logo"/>
+        </div>
+        <div>
+            <img src="E pizza.jpeg" alt="Pizza Image"/>
+        </div>
+    </div>
+    <hr>
+    <section>
+        <h2>Pizza Menu</h2>
+        <div>
+            <label>Chicken</label>
+            <select class="pizza-select" data-price="20">
+                <option value="">Select your Pizza</option>
+                <option value="20">Extra large $20</option>
+                <option value="15">Large $15</option>
+                <option value="10">Medium $10</option>
+                <option value="7">Small $7</option>
+            </select>
+            <br>
+            <img class="menu-image" src="chicken pizza.jpg" alt="Chicken Pizza"/>
+            <div class="line1">
+                <p>This BBQ chicken pizza has spicy barbecue sauce, diced chicken, peppers, onion, and cilantro, all
+                    covered with cheese and baked to bubbly goodness!</p>
+            </div>
+            <br>
+            <label>Pepperoni</label>
+            <select class="pizza-select" data-price="20">
+                <option value="">Select your Pizza</option>
+                <option value="20">Extra large $20</option>
+                <option value="15">Large $15</option>
+                <option value="10">Medium $10</option>
+                <option value="7">Small $7</option>
+            </select>
+            <br>
+            <img class="menu-image" src="Pepperoni pizza.jpeg" alt="Pepperoni Pizza"/>
+            <p class="line1">This cheesy, crunchy & crispy pepperoni pizza casserole includes all of your favorite pizza
+                toppings</p>
+            <br>
+            <label>Hawaiian</label>
+            <select class="pizza-select" data-price="20">
+                <option value="">Select your Pizza</option>
+                <option value="20">Extra large $20</option>
+                <option value="15">Large $15</option>
+                <option value="10">Medium $10</option>
+                <option value="7">Small $7</option>
+            </select>
+            <br>
+            <img class="menu-image" src="Hawaiian pizza.jpg" alt="Hawaiian Pizza" />
+            <p class="line1">Try our delicious mouth watering Hawaiian pizza loaded with double toppings!</p>
+        </div>
+    </section>
+    <section class="total">
+        <p>Total Cost: $<span id="total-cost">0</span></p>
+        <button onClick="calculate()">ORDER NOW</button>
+    </section>
+    <hr>
+    <br>
+    <p>Contact us by phone On 0800 83 83 83</p>
+    Refer to Main Page <a href="https://www.pizzahut.co.nz/"> Pizza Hut </a>
+    
+</body>
+</html>

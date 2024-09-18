@@ -34,6 +34,7 @@ h1 {
 
 .menu-image {
     max-width: 300px;
+    height: auto;
 
 
 }
@@ -90,3 +91,9 @@ select{ padding: 5px;
 }  
 select:hover{ background-color: aqua;
 color: green;}
+.total{
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    font-size: 2rem;
+    
+}
